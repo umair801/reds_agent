@@ -3,10 +3,11 @@
 from fastapi import APIRouter
 from datetime import datetime
 
-router = APIRouter()
+router = APIRouter(redirect_slashes=False)
 
 
 @router.get("/")
+@router.get("")
 async def health_check() -> dict:
     return {
         "status": "ok",
