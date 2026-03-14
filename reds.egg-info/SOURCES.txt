@@ -1,0 +1,17 @@
+setup.py
+app/__init__.py
+app/agents/__init__.py
+app/api/__init__.py
+app/crm/__init__.py
+app/crm/ghl_client.py
+app/models/__init__.py
+app/pipeline/__init__.py
+app/utils/__init__.py
+app/utils/config.py
+app/utils/logger.py
+reds.egg-info/PKG-INFO
+reds.egg-info/SOURCES.txt
+reds.egg-info/dependency_links.txt
+reds.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ghl_connection.py
